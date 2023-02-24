@@ -83,21 +83,6 @@
         tools:ignore="TouchTargetSizeCheck" />
 
     <Button
-        android:id="@+id/buttonBack2"
-        android:layout_width="97dp"
-        android:layout_height="51dp"
-        android:layout_marginTop="56dp"
-        android:layout_marginBottom="272dp"
-        android:backgroundTint="@color/boton_atras"
-        android:text="Atrás"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.226"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editPassword2"
-        tools:ignore="MissingConstraints" />
-
-    <Button
         android:id="@+id/buttonNext2"
         android:layout_width="133dp"
         android:layout_height="48dp"
