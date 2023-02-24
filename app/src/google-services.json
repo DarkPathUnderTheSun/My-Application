@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "793989785376",
+    "project_id": "dispmovproject",
+    "storage_bucket": "dispmovproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793989785376:android:522caf1a1394959018d945",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "793989785376-0s44sla26de1cbjrkvt490kn9cqcbfih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcQXFakbfQ7sVHX2sEnoJJwZxUyMjCkpA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "793989785376-0s44sla26de1cbjrkvt490kn9cqcbfih.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

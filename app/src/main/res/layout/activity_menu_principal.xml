@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuPrincipal"
+    tools:layout_editor_absoluteX="-4dp"
+    tools:layout_editor_absoluteY="-58dp">
+
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="137dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="44dp"
+        android:backgroundTint="@color/Color_acepto"
+        android:drawableTop="@drawable/orders_history_icon"
+        android:text="HISTORIAL DE PEDIDOS"
+        android:textColor="#FBF7F6"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/button7"
+        app:layout_constraintEnd_toStartOf="@+id/button6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#FF9800" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="137dp"
+        android:layout_height="125dp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="@color/Color_acepto"
+        android:drawableTop="@drawable/order_icon"
+        android:text="PEDIDOS ACTIVOS"
+        android:textColor="#F4F2F2"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintEnd_toEndOf="@+id/button6"
+        app:layout_constraintStart_toStartOf="@+id/button6"
+        app:layout_constraintTop_toTopOf="@+id/button2"
+        app:strokeColor="#FF9800" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="140dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="83dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="32dp"
+
+        android:backgroundTint="@color/Color_acepto"
+        android:drawableTop="@drawable/inventory"
+        android:text="INVENTARIO"
+        android:textColor="#FAF7F6"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#FF9800" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="170dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="201dp"
+        android:layout_marginTop="618dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="68dp"
+        android:backgroundTint="@color/Color_atras"
+        android:text="CERRAR SESION"
+        app:iconTint="#F2FFC107"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="138dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="221dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="44dp"
+        android:backgroundTint="@color/Color_acepto"
+        android:drawableTop="@drawable/produ"
+        android:text="HISTORIAL DE PRODUCTOS"
+        android:textColor="#FDF5F4"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/button7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button5"
+        app:strokeColor="#FF9800" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="135dp"
+        android:layout_height="125dp"
+        android:layout_marginBottom="84dp"
+        android:backgroundTint="@color/Color_acepto"
+        android:drawableTop="@drawable/reports"
+        android:text="REPORTES"
+        android:textColor="#F1EDED"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:strokeColor="#FF9800" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
