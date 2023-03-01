@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".inventario">
+    tools:context=".inventario"
+    tools:layout_editor_absoluteX="-4dp"
+    tools:layout_editor_absoluteY="-58dp">
 
 </androidx.constraintlayout.widget.ConstraintLayout>
