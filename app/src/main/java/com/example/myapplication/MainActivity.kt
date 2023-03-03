@@ -4,6 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import kotlinx.coroutines.selects.select
+import java.util.*
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -26,21 +28,31 @@ class MainActivity : AppCompatActivity() {
 
             val btnChange: Button = findViewById(R.id.cIdioma)
             val default = "español"
-            val ingles = "english"
+            var ingles = "english"
 
             btnChange.setOnClickListener{
-                if(default != "@strings/changeLanguage"){
+                if (default != "español"){
+                    actualizarResource("es")
 
+                }else{
 
+                    actualizarResource("en")
                 }
+
             }
 
-        fun actualizarResources(idioma: String){
-            val recursos = resources
-            val displayMetrics = recursos.displayMetrics
-            val configuracion = resources.configuration
-        }
 
+
+
+    }
+    fun actualizarResource(idioma: String){
+        val recursos = resources
+        val displayMetrics = recursos.displayMetrics
+        val configuracion = resources.configuration
+        configuracion.setLocale(Locale(idioma))
+        recursos.updateConfiguration(configuracion, displayMetrics)
+        configuracion.locale = Locale(idioma)
+        resources.updateConfiguration(configuracion, displayMetrics)
 
     }
 }
