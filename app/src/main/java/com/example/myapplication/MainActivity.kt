@@ -23,5 +23,24 @@ class MainActivity : AppCompatActivity() {
             val intentSesion: Intent = Intent(this, inicioSesion:: class.java)
             startActivity(intentSesion)
         }
+
+            val btnChange: Button = findViewById(R.id.cIdioma)
+            val default = "español"
+            val ingles = "english"
+
+            btnChange.setOnClickListener{
+                if(default != "@strings/changeLanguage"){
+
+
+                }
+            }
+
+        fun actualizarResources(idioma: String){
+            val recursos = resources
+            val displayMetrics = recursos.displayMetrics
+            val configuracion = resources.configuration
+        }
+
+
     }
 }
