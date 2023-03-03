@@ -41,6 +41,14 @@ class inicioSesion : AppCompatActivity() {
                         val intent: Intent = Intent(this, MenuPrincipal::class.java)
                         startActivity(intent)
                     }
+                    if (responseObject["status"].toString() == "admin") {
+                        val intent: Intent = Intent(this, MenuAdmin::class.java)
+                        startActivity(intent)
+                    }
+                    if (responseObject["status"].toString() == "clerk") {
+                        val intent: Intent = Intent(this, MenuMostrador::class.java)
+                        startActivity(intent)
+                    }
                 },
                 { Toast.makeText(baseContext, "Error en conexión", Toast.LENGTH_SHORT).show() })
             queue.add(stringRequest)
