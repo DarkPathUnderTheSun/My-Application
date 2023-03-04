@@ -28,32 +28,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intentSesion)
         }
 
-            val btnChange: Button = findViewById(R.id.cIdioma)
-            val default = "español"
-            val boton = getText(R.id.cIdioma)
-
-            btnChange.setOnClickListener{
-                if (default != boton){
-                    actualizarResource("es")
-
-                }else{
-                    actualizarResource("en")
-                }
 
             }
-
-
-
-
     }
-    fun actualizarResource(idioma: String){
-        val recursos = resources
-        val displayMetrics = recursos.displayMetrics
-        val configuracion = resources.configuration
-        configuracion.setLocale(Locale(idioma))
-        recursos.updateConfiguration(configuracion, displayMetrics)
-        configuracion.locale = Locale(idioma)
-        resources.updateConfiguration(configuracion, displayMetrics)
 
-    }
-}
