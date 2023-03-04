@@ -1,6 +1,7 @@
 <resources>
     <string name="back">Back</string>
     <string name="next">Next</string>
+    <string name="cancel">Cancel</string>
     <string name="app_name">My Application</string>
     <string name="title_activity_login">Login</string>
     <string name="prompt_email">Email</string>
@@ -27,4 +28,6 @@
     <string name="iSesionICorreo">Enter E-mail</string>
     <string name="iSesionPassword">Password:</string>
     <string name="iSesionIPassword">Enter Password</string>
+    <string name="cContraseña">Confirm Password</string>
+    <string name="Registro">SIGN UP</string>
 </resources>
