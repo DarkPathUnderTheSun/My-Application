@@ -9,32 +9,28 @@
     android:backgroundTint="@color/fondo2_light"
     tools:context=".Registro">
 
-    <Button
-        android:id="@+id/register3"
+    <EditText
+        android:id="@+id/editTextTextPassword2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="500dp"
-        android:backgroundTint="@color/Color_atras"
-        android:text="cancelar"
+        android:layout_marginTop="300dp"
+        android:ems="10"
+        android:hint="contraseña"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView4"
-        android:layout_width="179dp"
-        android:layout_height="47dp"
-        android:layout_marginTop="184dp"
-        android:layout_marginBottom="19dp"
-        android:text="REGISTRO"
-        android:textAlignment="center"
-        android:textColor="#000000"
-        android:textSize="34sp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:text="Confirmar contraseña:"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword2"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPassword2" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
@@ -47,40 +43,24 @@
         android:id="@+id/editTextTextEmailAddress"
         android:layout_width="207dp"
         android:layout_height="48dp"
-        android:layout_marginTop="250dp"
+        android:layout_marginTop="116dp"
         android:ems="10"
         android:hint="ejemplo@mail.com"
         android:inputType="textEmailAddress"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="317dp"
-        android:layout_marginBottom="56dp"
+        android:layout_marginTop="207dp"
         android:ems="10"
         android:hint="contraseña"
         android:inputType="textPassword"
         android:minHeight="48dp"
-        app:layout_constraintBottom_toTopOf="@+id/register"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
-
-    <Button
-        android:id="@+id/register"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="421dp"
-        android:backgroundTint="@color/Color_acepto"
-        android:text="REGISTRARSE"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -98,8 +78,46 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
         android:text="Contraseña:"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPassword" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="179dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="32dp"
+        android:text="REGISTRO"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="374dp"
+        android:backgroundTint="@color/Color_acepto"
+        android:text="REGISTRARSE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/register3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="453dp"
+        android:backgroundTint="@color/Color_atras"
+        android:text="cancelar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
