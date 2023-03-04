@@ -1,4 +1,6 @@
 <resources>
+    <string name="back">Atrás</string>
+    <string name="next">Siguiente</string>
     <string name="app_name">My Application</string>
     <string name="title_activity_login">Login</string>
     <string name="prompt_email">Email</string>
@@ -20,4 +22,10 @@
     <string name="cSesion">CERRAR SESIÓN</string>
     <string name="adminActivity">Esta es la activity de administrador.</string>
     <string name="mostradorActivity">Esta es la activity de mostrador.</string>
+    <string name="iSesion">Inicio Sesión</string>
+    <string name="iSesionEmail">Correo Electronico:</string>
+    <string name="iSesionICorreo">Introducir correo</string>
+    <string name="iSesionPassword">Contraseña:</string>
+    <string name="iSesionIPassword">Introducir contraseña</string>
+
 </resources>
