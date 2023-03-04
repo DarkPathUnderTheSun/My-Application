@@ -12,4 +12,12 @@
     <string name="Login">Iniciar Sesión</string>
     <string name="SignUp">Registrarse</string>
     <string name="changeLanguage">inglés</string>
+    <string name="inventary">Inventario</string>
+    <string name="pedidosA">Pedidos Activos</string>
+    <string name="Historial">HISTORIAL DE PEDIDOS</string>
+    <string name="HistorialP">HISTORIAL DE PRODUCTOS</string>
+    <string name="Reportes">REPORTES</string>
+    <string name="cSesion">CERRAR SESIÓN</string>
+    <string name="adminActivity">Esta es la activity de administrador.</string>
+    <string name="mostradorActivity">Esta es la activity de mostrador.</string>
 </resources>

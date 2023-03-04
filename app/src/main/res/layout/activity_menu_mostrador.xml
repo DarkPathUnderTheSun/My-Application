@@ -13,7 +13,7 @@
         android:layout_marginStart="106dp"
         android:layout_marginTop="356dp"
         android:layout_marginEnd="106dp"
-        android:text="Esta es la activity de mostrador."
+        android:text="@string/mostradorActivity"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

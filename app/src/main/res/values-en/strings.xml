@@ -12,4 +12,12 @@
     <string name="Login">Log In</string>
     <string name="SignUp">Sign Up</string>
     <string name="changeLanguage">Spanish</string>
+    <string name="inventary">INVENTORY</string>
+    <string name="pedidosA">ACTIVE ORDERS</string>
+    <string name="Historial">ORDERS HISTORY</string>
+    <string name="HistorialP">PRODUCTS HISTORY</string>
+    <string name="Reportes">SUMMARY</string>
+    <string name="cSesion">LOG OUT</string>
+    <string name="adminActivity">This is the admin Activity.</string>
+    <string name="mostradorActivity">This is the users Activity.</string>
 </resources>
