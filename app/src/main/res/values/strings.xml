@@ -14,6 +14,7 @@
     <string name="login_failed">"Login failed"</string>
     <string name="Login">Iniciar Sesión</string>
     <string name="SignUp">Registrarse</string>
+    <string name="LogOut">CERRAR SESIÓN</string>
     <string name="changeLanguage">inglés</string>
     <string name="inventary">Inventario</string>
     <string name="pedidosA">Pedidos Activos</string>
