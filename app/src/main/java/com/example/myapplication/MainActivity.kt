@@ -12,10 +12,10 @@ import androidx.appcompat.app.AppCompatActivity
 import java.util.*
 
 class MainActivity : AppCompatActivity() {
-    lateinit var Switch1: Switch
-    lateinit var IniciarSesion: Button
-    lateinit var Registro: Button
-    @SuppressLint("ResourceType")
+    lateinit var ButtonIdioma: Button
+    lateinit var btn: Button
+    lateinit var btnInicioSesion: Button
+    @SuppressLint("ResourceType", "MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -36,35 +36,36 @@ class MainActivity : AppCompatActivity() {
             startActivity(intentSesion)
         }
 
-        val Switch1: Switch = findViewById(R.id.switch1)
-        Switch1.setOnCheckedChangeListener { _, isChecked ->
-            if(isChecked){
-                actualizarResource("es")
-            }else{
+        val BIdioma: Button = findViewById(R.id.cIdioma)
+        BIdioma.setOnClickListener{
+            if (BIdioma.isPressed) {
                 actualizarResource("en")
             }
+            else {
+                actualizarResource("es")
+            }
+        }
 
 
         }
 
-
-            }
-
     fun actualizarResource(idioma: String){
-    val recursos = resources
-    val displayMetrics = recursos.displayMetrics
-    val configuracion = resources.configuration
+        val recursos = resources
+        val displayMetrics = recursos.displayMetrics
+        val configuracion = resources.configuration
         configuracion.setLocale(Locale(idioma))
         recursos.updateConfiguration(configuracion, displayMetrics)
         configuracion.locale = Locale(idioma)
         recursos.updateConfiguration(configuracion, displayMetrics)
 
-        Switch1.text = recursos.getString(R.string.changeLanguage)
-        IniciarSesion.text = recursos.getString(R.string.Login)
-        Registro.text = recursos.getString(R.string.SignUp)
-    }
+        ButtonIdioma.text = recursos.getString(R.string.changeLanguage)
+        btnInicioSesion.text = recursos.getString(R.string.Login)
+        btn.text = recursos.getString(R.string.SignUp)
+            }
+
+}
 
 
 
-    }
+
 
