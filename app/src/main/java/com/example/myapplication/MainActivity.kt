@@ -12,13 +12,15 @@ import androidx.appcompat.app.AppCompatActivity
 import java.util.*
 
 class MainActivity : AppCompatActivity() {
-
+    lateinit var Switch1: Switch
+    lateinit var IniciarSesion: Button
+    lateinit var Registro: Button
     @SuppressLint("ResourceType")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        lateinit var Switch1: Switch
+
 
         val btn: Button = findViewById(R.id.registrarse)
 
@@ -34,6 +36,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intentSesion)
         }
 
+        val Switch1: Switch = findViewById(R.id.switch1)
         Switch1.setOnCheckedChangeListener { _, isChecked ->
             if(isChecked){
                 actualizarResource("es")
@@ -56,6 +59,9 @@ class MainActivity : AppCompatActivity() {
         configuracion.locale = Locale(idioma)
         recursos.updateConfiguration(configuracion, displayMetrics)
 
+        Switch1.text = recursos.getString(R.string.changeLanguage)
+        IniciarSesion.text = recursos.getString(R.string.Login)
+        Registro.text = recursos.getString(R.string.SignUp)
     }
 
 
