@@ -15,7 +15,7 @@
     <string name="Login">Iniciar Sesión</string>
     <string name="SignUp">Registrarse</string>
     <string name="LogOut">CERRAR SESIÓN</string>
-    <string name="changeLanguage">inglés</string>
+    <string name="changeLanguage">Inglés</string>
     <string name="inventary">Inventario</string>
     <string name="pedidosA">Pedidos Activos</string>
     <string name="Historial">HISTORIAL DE PEDIDOS</string>

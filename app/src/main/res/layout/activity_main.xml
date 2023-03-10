@@ -31,17 +31,20 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.389"
+        app:layout_constraintVertical_bias="0.39"
         tools:ignore="MissingConstraints" />
 
-    <Button
-        android:id="@+id/cIdioma"
-        android:layout_width="103dp"
-        android:layout_height="38dp"
-        android:layout_marginEnd="300dp"
-        android:layout_marginBottom="212dp"
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="98dp"
+        android:layout_height="16dp"
+        android:layout_marginBottom="148dp"
         android:text="@string/changeLanguage"
         app:layout_constraintBottom_toTopOf="@+id/IniciarSesion"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.102"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.369" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
