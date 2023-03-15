@@ -9,9 +9,11 @@ import android.widget.Button
 import android.widget.Switch
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.zeugmasolutions.localehelper.Locales
 import java.util.*
 
-class MainActivity : AppCompatActivity() {
+
+class MainActivity : BaseActivity() {
     lateinit var ButtonIdioma: Button
     lateinit var btn: Button
     lateinit var btnInicioSesion: Button
@@ -38,30 +40,15 @@ class MainActivity : AppCompatActivity() {
 
         val BIdioma: Button = findViewById(R.id.cIdioma)
         BIdioma.setOnClickListener{
-            if (BIdioma.isPressed) {
-                actualizarResource("en")
-            }
-            else {
-                actualizarResource("es")
-            }
+           updateLocale(Locales.Spanish)
+        }
+        val BIdioma2: Button = findViewById(R.id.cIdioma2)
+        BIdioma2.setOnClickListener{
+            updateLocale(Locales.English)
         }
 
-
         }
 
-    fun actualizarResource(idioma: String){
-        val recursos = resources
-        val displayMetrics = recursos.displayMetrics
-        val configuracion = resources.configuration
-        configuracion.setLocale(Locale(idioma))
-        recursos.updateConfiguration(configuracion, displayMetrics)
-        configuracion.locale = Locale(idioma)
-        recursos.updateConfiguration(configuracion, displayMetrics)
-
-        ButtonIdioma.text = recursos.getString(R.string.changeLanguage)
-        btnInicioSesion.text = recursos.getString(R.string.Login)
-        btn.text = recursos.getString(R.string.SignUp)
-            }
 
 }
 
