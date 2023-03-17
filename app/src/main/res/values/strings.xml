@@ -1,7 +1,7 @@
 <resources>
-    <string name="back">Back</string>
-    <string name="next">Next</string>
-    <string name="cancel">Cancel</string>
+    <string name="back">Atrás</string>
+    <string name="next">Siguiente</string>
+    <string name="cancel">Cancelar</string>
     <string name="app_name">My Application</string>
     <string name="title_activity_login">Login</string>
     <string name="prompt_email">Email</string>
@@ -12,24 +12,25 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
-    <string name="Login">Log In</string>
-    <string name="SignUp">Sign Up</string>
-    <string name="LogOut">LOG OUT</string>
-    <string name="changeLanguage">Spanish</string>
-    <string name="inventary">INVENTORY</string>
-    <string name="pedidosA">ACTIVE ORDERS</string>
-    <string name="Historial">ORDERS HISTORY</string>
-    <string name="HistorialP">PRODUCTS HISTORY</string>
-    <string name="Reportes">SUMMARY</string>
-    <string name="cSesion">LOG OUT</string>
-    <string name="adminActivity">This is the admin Activity.</string>
-    <string name="mostradorActivity">This is the users Activity.</string>
-    <string name="iSesion">Log In</string>
-    <string name="iSesionEmail">E-mail:</string>
-    <string name="iSesionICorreo">Enter E-mail</string>
-    <string name="iSesionPassword">Password:</string>
-    <string name="iSesionIPassword">Enter Password</string>
-    <string name="cContraseña">Confirm Password</string>
-    <string name="Registro">SIGN UP</string>
+    <string name="Login">Iniciar Sesión</string>
+    <string name="SignUp">Registrarse</string>
+    <string name="LogOut">CERRAR SESIÓN</string>
+    <string name="changeLanguage">Inglés</string>
+    <string name="inventary">Inventario</string>
+    <string name="pedidosA">Pedidos Activos</string>
+    <string name="Historial">HISTORIAL DE PEDIDOS</string>
+    <string name="HistorialP">HISTORIAL DE PRODUCTOS</string>
+    <string name="Reportes">REPORTES</string>
+    <string name="cSesion">CERRAR SESIÓN</string>
+    <string name="adminMessage">Administrador</string>
+    <string name="mostradorActivity">Esta es la activity de mostrador.</string>
+    <string name="iSesion">Inicio Sesión</string>
+    <string name="iSesionEmail">Correo Electronico:</string>
+    <string name="iSesionICorreo">Introducir correo</string>
+    <string name="iSesionPassword">Contraseña:</string>
+    <string name="iSesionIPassword">Introducir contraseña</string>
+    <string name="cContraseña">Confirmar contraseña:</string>
+    <string name="Registro">REGISTRO</string>
+    <string name="MyGroupText">Mi grupo: </string>
 
 </resources>
