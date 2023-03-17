@@ -23,7 +23,7 @@
     <string name="Reportes">REPORTES</string>
     <string name="cSesion">CERRAR SESIÓN</string>
     <string name="adminMessage">Administrador</string>
-    <string name="mostradorActivity">Esta es la activity de mostrador.</string>
+    <string name="mostradorMessage">Mostrador</string>
     <string name="iSesion">Inicio Sesión</string>
     <string name="iSesionEmail">Correo Electronico:</string>
     <string name="iSesionICorreo">Introducir correo</string>
