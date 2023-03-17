@@ -37,7 +37,7 @@
     <Button
         android:id="@+id/cIdioma"
         android:layout_width="127dp"
-        android:layout_height="37dp"
+        android:layout_height="48dp"
         android:text="Español"
         app:layout_constraintBottom_toTopOf="@+id/IniciarSesion"
         app:layout_constraintEnd_toEndOf="parent"
@@ -49,7 +49,7 @@
     <Button
         android:id="@+id/cIdioma2"
         android:layout_width="127dp"
-        android:layout_height="37dp"
+        android:layout_height="48dp"
         android:text="Ingles"
         app:layout_constraintBottom_toTopOf="@+id/IniciarSesion"
         app:layout_constraintEnd_toEndOf="parent"
