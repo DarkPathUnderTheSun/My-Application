@@ -5,13 +5,13 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
-class MenuPrincipal : AppCompatActivity() {
+class MenuNullRole : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_menu_principal)
+        setContentView(R.layout.activity_menu_null_role)
 
-        val btnSiguiente: Button = findViewById(R.id.button)
-        btnSiguiente.setOnClickListener {
+        val btnCerrarSesion: Button = findViewById(R.id.button4)
+        btnCerrarSesion.setOnClickListener {
             val intent: Intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }

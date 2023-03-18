@@ -38,11 +38,12 @@ class inicioSesion : AppCompatActivity() {
                     val responseObject = JSONObject(response)
                     Toast.makeText(baseContext, responseObject["status"].toString(), Toast.LENGTH_SHORT).show()
                     if (responseObject["status"].toString() == "ok") {
-                        val intent: Intent = Intent(this, MenuPrincipal::class.java)
+                        val intent: Intent = Intent(this, MenuNullRole::class.java)
                         startActivity(intent)
                     }
                     if (responseObject["status"].toString() == "admin") {
                         val intent: Intent = Intent(this, MenuAdmin::class.java)
+                        intent.putExtra("email",mail)
                         startActivity(intent)
                     }
                     if (responseObject["status"].toString() == "clerk") {

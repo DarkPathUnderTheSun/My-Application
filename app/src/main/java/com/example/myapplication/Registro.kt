@@ -21,11 +21,13 @@ class Registro : AppCompatActivity() {
         val mail: EditText = findViewById(R.id.editTextTextEmailAddress)
         val password: EditText = findViewById(R.id.editTextTextPassword)
         val passwordRepeat: EditText = findViewById(R.id.editTextTextPassword2)
+        val textNumber: EditText = findViewById(R.id.editTextNumber)
 
         btnSiguiente.setOnClickListener {
             val mail = mail.text.toString()
             val password = password.text.toString()
             val passwordRepeat = passwordRepeat.text.toString()
+            val groupNumber = textNumber.text.toString()
 
             if((mail == "") or (password=="")) {
                 Toast.makeText(baseContext, "Llena ambos campos", Toast.LENGTH_SHORT).show()
@@ -34,7 +36,7 @@ class Registro : AppCompatActivity() {
 
                 if(password == passwordRepeat) {
                     val queue = Volley.newRequestQueue(this)
-                    val url = "https://www.skyclad.xyz:8443/signUpRequest/?correo=$mail&password=$password"
+                    val url = "https://www.skyclad.xyz:8443/signUpRequest/?correo=$mail&password=$password&grupo=$groupNumber"
                     val stringRequest = StringRequest(
                         Request.Method.GET, url,
                         { response ->
