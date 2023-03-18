@@ -47,7 +47,7 @@ class inicioSesion : AppCompatActivity() {
                         startActivity(intent)
                     }
                     if (responseObject["status"].toString() == "clerk") {
-                        val intent: Intent = Intent(this, MenuMostrador::class.java)
+                        val intent: Intent = Intent(this, MenuPrincipal::class.java)
                         startActivity(intent)
                     }
                 },

@@ -16,6 +16,12 @@ class MenuPrincipal : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val btnInventario: Button = findViewById(R.id.button2)
+        btnInventario.setOnClickListener{
+            val intentInventario: Intent = Intent(this, inventario::class.java)
+            startActivity(intentInventario)
+        }
+
 
     }
 }

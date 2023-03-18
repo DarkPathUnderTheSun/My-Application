@@ -32,5 +32,6 @@
     <string name="cContraseña">Confirmar contraseña:</string>
     <string name="Registro">REGISTRO</string>
     <string name="MyGroupText">Mi grupo: </string>
+    <string name="nullRole">No tienes un rol asignado.</string>
 
 </resources>
