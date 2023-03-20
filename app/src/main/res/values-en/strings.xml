@@ -23,7 +23,7 @@
 <string name="Reportes">SUMMARY</string>
 <string name="cSesion">LOG OUT</string>
 <string name="adminMessage">Admin.</string>
-<string name="mostradorActivity">This is the users Activity.</string>
+<string name="mostradorMessage">Check-In Clerk</string>
 <string name="iSesion">Log In</string>
 <string name="iSesionEmail">E-mail:</string>
 <string name="iSesionICorreo">Enter E-mail</string>
@@ -32,4 +32,5 @@
 <string name="cContraseña">Confirm Password</string>
 <string name="Registro">SIGN UP</string>
     <string name="MyGroupText">My group: </string>
+<string name="nullRole">You have not an asignated role.</string>
 </resources>
