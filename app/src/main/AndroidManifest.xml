@@ -15,6 +15,9 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
+            android:name=".group_chat"
+            android:exported="false" />
+        <activity
             android:name=".MenuNullRole"
             android:exported="false" />
         <activity

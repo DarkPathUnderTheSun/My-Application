@@ -163,6 +163,12 @@ class MenuAdmin : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val btnChat: Button = findViewById(R.id.button9)
+        btnChat.setOnClickListener {
+            val intent: Intent = Intent(this, group_chat::class.java)
+            startActivity(intent)
+        }
+
 
     }
 }
