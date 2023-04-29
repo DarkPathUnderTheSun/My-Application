@@ -45,6 +45,9 @@
             android:name=".inicioSesion"
             android:exported="false" />
         <activity
+            android:name=".inventario"
+            android:exported="false" />
+        <activity
             android:name=".Registro"
             android:exported="false" />
         <activity
