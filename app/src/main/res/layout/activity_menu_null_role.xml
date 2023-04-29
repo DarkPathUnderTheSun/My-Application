@@ -17,7 +17,11 @@
         android:text="@string/nullRole"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:textStyle="bold"
+
+
+     />
 
     <Button
         android:id="@+id/button4"
@@ -26,6 +30,7 @@
         android:layout_marginTop="428dp"
         android:backgroundTint="@color/Color_atras"
         android:text="Cerrar Sesión"
+        android:textColor="@color/fondo2_light"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
