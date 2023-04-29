@@ -22,8 +22,6 @@ class MainActivity : BaseActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
-
         val btn: Button = findViewById(R.id.registrarse)
 
         btn.setOnClickListener {
